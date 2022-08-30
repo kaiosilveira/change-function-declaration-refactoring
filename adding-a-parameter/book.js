@@ -5,6 +5,9 @@ class Book {
     this._reservations = reservations;
   }
 
+  /**
+   * @deprecated Use zzNEW_addReservation instead
+   */
   addReservation(customer) {
     this.zzNEW_addReservation(customer, false);
   }
