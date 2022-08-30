@@ -1,4 +1,4 @@
-const { circum } = require('./circum');
+const { circumference } = require('./circum');
 
-const result = circum(20);
+const result = circumference(20);
 console.log(`circumference is: ${result}`);
