@@ -1,5 +1,5 @@
-function zzNEW_inNewEngland(stateCode) {
+function inNewEngland(stateCode) {
   return ['MA', 'CT', 'ME', 'VT', 'NH', 'RI'].includes(stateCode);
 }
 
-module.exports = { zzNEW_inNewEngland };
+module.exports = { inNewEngland };
