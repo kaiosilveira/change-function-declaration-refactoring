@@ -6,7 +6,7 @@ class Book {
   }
 
   addReservation(customer) {
-    this._reservations.push(customer);
+    this.zzNEW_addReservation(customer, false);
   }
 
   zzNEW_addReservation(customer, isPriority) {
