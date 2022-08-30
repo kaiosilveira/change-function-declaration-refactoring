@@ -1,3 +1,6 @@
+/**
+ * @deprecated Use `circumference` instead
+ */
 function circum(radius) {
   return circumference(radius);
 }
