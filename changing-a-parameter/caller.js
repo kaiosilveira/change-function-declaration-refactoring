@@ -1,4 +1,4 @@
-const { inNewEngland } = require('./in-new-england');
+const { zzNEW_inNewEngland } = require('./in-new-england');
 
 someCustomers = [
   { id: 1, address: { state: 'MA' } },
@@ -7,6 +7,6 @@ someCustomers = [
   { id: 4, address: { state: 'VT' } },
 ];
 
-const newEnglanders = someCustomers.filter(customer => inNewEngland(customer));
+const newEnglanders = someCustomers.filter(customer => zzNEW_inNewEngland(customer.address.state));
 
 console.log(`new englanders: ${newEnglanders.map(c => c.id).join(', ')}`);
