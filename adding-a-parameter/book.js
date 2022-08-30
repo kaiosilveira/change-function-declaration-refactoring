@@ -1,9 +1,20 @@
+const assert = require('node:assert');
+
 class Book {
   constructor({ reservations } = { reservations: [] }) {
     this._reservations = reservations;
   }
 
   addReservation(customer) {
+    this._reservations.push(customer);
+  }
+
+  zzNEW_addReservation(customer, isPriority) {
+    assert(
+      [true, false].includes(isPriority),
+      'Expected the isPriority: Boolean parameter to be provided.'
+    );
+
     this._reservations.push(customer);
   }
 
