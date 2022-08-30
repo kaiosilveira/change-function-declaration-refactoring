@@ -1,5 +1,5 @@
 function inNewEngland(aCustomer) {
-  return ['MA', 'CT', 'ME', 'VT', 'NH', 'RI'].includes(aCustomer.address.state);
+  return zzNEW_inNewEngland(aCustomer.address.state);
 }
 
 function zzNEW_inNewEngland(stateCode) {
