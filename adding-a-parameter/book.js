@@ -5,7 +5,7 @@ class Book {
     this._reservations = reservations;
   }
 
-  zzNEW_addReservation(customer, isPriority) {
+  addReservation(customer, isPriority) {
     assert(
       [true, false].includes(isPriority),
       'Expected the isPriority: Boolean parameter to be provided.'

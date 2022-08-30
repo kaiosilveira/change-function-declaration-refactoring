@@ -3,11 +3,11 @@ const { Book } = require('./book');
 describe('Book', () => {
   const aCustomer = { id: 1, name: 'Kaio Silveira' };
 
-  describe('zzNEW_addReservation', () => {
+  describe('addReservation', () => {
     it('should throw an error if isPriority parameter is not provided', () => {
       const book = new Book();
 
-      expect(() => book.zzNEW_addReservation(aCustomer)).toThrow(
+      expect(() => book.addReservation(aCustomer)).toThrow(
         'Expected the isPriority: Boolean parameter to be provided.'
       );
     });
@@ -15,7 +15,7 @@ describe('Book', () => {
     it('should allow to add a reservation for a customer', () => {
       const book = new Book();
 
-      book.zzNEW_addReservation(aCustomer, true);
+      book.addReservation(aCustomer, true);
 
       const reservations = book.fetchReservations();
       expect(reservations).toHaveLength(1);
