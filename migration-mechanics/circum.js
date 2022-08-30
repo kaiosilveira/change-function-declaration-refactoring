@@ -1,5 +1,5 @@
 function circum(radius) {
-  return 2 * Math.PI * radius;
+  return circumference(radius);
 }
 
 function circumference(radius) {
