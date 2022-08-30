@@ -1,8 +1,8 @@
-const { circum } = require('./circum');
+const { circumference } = require('./circum');
 
 describe('circum', () => {
   it('should calculate the circumference for a given radius', () => {
-    const result = circum(10);
+    const result = circumference(10);
     expect(62.83185307179586).toEqual(result);
   });
 });

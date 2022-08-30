@@ -1,5 +1,5 @@
-function circum(radius) {
+function circumference(radius) {
   return 2 * Math.PI * radius;
 }
 
-module.exports = { circum };
+module.exports = { circumference };
