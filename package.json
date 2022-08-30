@@ -1,0 +1,14 @@
+{
+  "name": "change-function-declaration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kaiosilveira/change-function-declaration-refactoring.git",
+  "author": "Kaio Silveira",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.1"
+  }
+}
