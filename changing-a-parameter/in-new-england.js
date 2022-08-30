@@ -1,3 +1,7 @@
+/**
+ *
+ * @deprecated Use zzNEW_inNewEngland instead
+ */
 function inNewEngland(aCustomer) {
   return zzNEW_inNewEngland(aCustomer.address.state);
 }
